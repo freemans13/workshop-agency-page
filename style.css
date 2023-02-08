@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  max-width: 350px;
+  margin-top: 100px;
+  margin-left: 8px;
+  margin-bottom: 36px;
+  margin-right: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  border-top: 8px solid lightgrey;
+  background: grey;
+  height: 100%;
+  padding-top: 56px;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 8px solid lightgrey;
+  padding-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 560px;
+}
+
+.indented-heading {
+  font-size: 18px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 6px solid hsl(45deg, 100%, 40%);
+  margin-top: 2px;
+  margin-left: -8px;
+  margin-right: 8px;
+  padding: 8px 24px;
+  width: fit-content;
+}
+
+p {
+  padding-left: 16px;
+  padding-right: 16px;
+}
